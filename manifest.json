@@ -1,0 +1,8 @@
+{
+  "name": "Моё Мобильное Приложение",
+  "short_name": "Моё PWA",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#f2f2f7",
+  "theme_color": "#007aff"
+}
