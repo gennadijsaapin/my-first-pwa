@@ -1,0 +1,21 @@
+<svg xmlns="http://w3.org" viewBox="0 0 180 180" width="180" height="180">
+  <!-- Темный технологичный фон -->
+  <rect width="180" height="180" rx="40" fill="#0d0e15"/>
+  
+  <!-- Декоративная сетка на бэкграунде -->
+  <path d="M0 30 H180 M0 60 H180 M0 90 H180 M0 120 H180 M0 150 H180" stroke="#1a1c28" stroke-width="1"/>
+  <path d="M30 0 V180 M60 0 V180 M90 0 V180 M120 0 V180 M150 0 V180" stroke="#1a1c28" stroke-width="1"/>
+  
+  <!-- Кибернетический треугольник/логотип с неоновым свечением -->
+  <g filter="drop-shadow(0px 0px 8px #ff0055) drop-shadow(0px 0px 2px #00f0ff)">
+    <polygon points="90,45 140,130 40,130" fill="none" stroke="#00f0ff" stroke-width="6" stroke-linejoin="round"/>
+    <polygon points="90,65 125,120 55,120" fill="none" stroke="#ff0055" stroke-width="4" stroke-linejoin="round"/>
+    <circle cx="90" cy="95" r="12" fill="#00f0ff"/>
+  </g>
+  
+  <!-- Угловые рамки интерфейса -->
+  <path d="M 20 40 L 20 20 L 40 20" fill="none" stroke="#ff0055" stroke-width="3"/>
+  <path d="M 160 40 L 160 20 L 140 20" fill="none" stroke="#ff0055" stroke-width="3"/>
+  <path d="M 20 140 L 20 160 L 40 160" fill="none" stroke="#ff0055" stroke-width="3"/>
+  <path d="M 160 140 L 160 160 L 140 160" fill="none" stroke="#ff0055" stroke-width="3"/>
+</svg>
